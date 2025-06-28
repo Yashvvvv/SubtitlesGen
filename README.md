@@ -6,7 +6,7 @@ This project was built to demonstrate proficiency in key technologies required f
 
 ## Screenshot
 
-![App Screenshot](https://i.imgur.com/your-screenshot.png) 
+![App Screenshot]![Image](https://github.com/user-attachments/assets/fa969996-2a82-4745-8e0e-297f3e617c5b)
 
 ---
 
