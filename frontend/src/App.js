@@ -96,9 +96,6 @@ function App() {
           </div>
         )}
       </main>
-      <footer className="App-footer">
-        <p>Built for the Paytm Full Stack AI Engineer role.</p>
-      </footer>
     </div>
   );
 }
