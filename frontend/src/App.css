@@ -1,0 +1,163 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #f0f2f5;
+  color: #1c1e21;
+}
+
+.App {
+  text-align: center;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin-bottom: 30px;
+}
+
+.App-header h1 {
+  margin: 0;
+  font-size: 2.5rem;
+  color: #1877f2;
+}
+
+.App-header p {
+  color: #606770;
+  font-size: 1.1rem;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+main {
+  background-color: #ffffff;
+  padding: 30px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.transcribe-form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.input-group {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+}
+
+.input-group label {
+  margin-bottom: 8px;
+  font-weight: 600;
+  color: #606770;
+}
+
+.input-group input[type="text"],
+.input-group input[type="file"] {
+  padding: 12px;
+  border-radius: 6px;
+  border: 1px solid #dddfe2;
+  font-size: 1rem;
+  transition: border-color 0.2s;
+}
+
+.input-group input[type="text"]:focus {
+  border-color: #1877f2;
+  outline: none;
+}
+
+.separator {
+  font-weight: 600;
+  color: #606770;
+  margin: 10px 0;
+}
+
+button {
+  background-color: #1877f2;
+  color: white;
+  border: none;
+  padding: 14px 20px;
+  font-size: 1.1rem;
+  font-weight: 600;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+button:hover:not(:disabled) {
+  background-color: #166fe5;
+}
+
+button:disabled {
+  background-color: #a0bdf5;
+  cursor: not-allowed;
+}
+
+.error-message {
+  margin-top: 20px;
+  color: #fa383e;
+  background-color: #ffebe6;
+  padding: 10px;
+  border-radius: 6px;
+}
+
+.transcription-result {
+  margin-top: 30px;
+  text-align: left;
+}
+
+.transcription-result h2 {
+  color: #1877f2;
+}
+
+.transcription-result textarea {
+  width: 100%;
+  min-height: 200px;
+  padding: 12px;
+  border-radius: 6px;
+  border: 1px solid #dddfe2;
+  font-size: 1rem;
+  line-height: 1.5;
+  resize: vertical;
+  background-color: #f0f2f5;
+  margin-top: 10px;
+}
+
+.App-footer {
+  margin-top: 40px;
+  padding-top: 20px;
+  border-top: 1px solid #dddfe2;
+  color: #606770;
+}
