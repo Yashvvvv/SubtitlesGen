@@ -7,7 +7,6 @@ This project was built to demonstrate proficiency in key technologies required f
 ## Screenshot
 
 ![App Screenshot](https://i.imgur.com/your-screenshot.png) 
-*(You should replace this with a real screenshot or a GIF of your running application)*
 
 ---
 
